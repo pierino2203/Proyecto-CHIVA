@@ -61,6 +61,7 @@
             console.log(cancion[i])
         }
         mostrarCancion(cancion)
+        resultado(cancion)
     }
 
     function mostrarCancion(cancion) {
@@ -77,5 +78,15 @@
     function elementoRandom(arreglo) {
         const indiceRandom = Math.floor(Math.random() * arreglo.length);
         return arreglo[indiceRandom];
+    }
+
+    function resultado(cancion){
+        const resul = document.querySelector('.resultado');
+        resul.innerHTML='';
+        const resultado ='RESULTADO ES: '+ cancion.length + ' milisegundos'
+        const parrafo = document.createElement('p');
+        parrafo.textContent = resultado
+        resul.appendChild(parrafo)
+        
     }
 })()
