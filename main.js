@@ -1,5 +1,25 @@
 (() => {
-    var arrayAnimales = ['el perro', 'el tigre', 'la vaca', 'el gato', 'el tigre', 'el loro', 'el oso', 'el pajaro', 'el cocodrilo', 'la rata', 'el toro', 'el alcon']
+    var arrayAnimales = [
+        'el Yaguareté', 'el Cóndor', 'el Guanaco', 'el Ñandú', 'el Carancho',
+        'el Lobo Marino', 'el Puma', 'el Perro', 'el Mono', 'el Zorro',
+        'la Liebre', 'el Carpincho', 'la Chinchilla', 'el Cóndor', 'el Gato',
+        'el Loro Barranquero', 'el Pato', 'el Oso', 'la Rata',
+        'el Leon', 'el Lobo', 'el Tucán', 'el Tatu', 'la Gallina',
+        'el tiburon', 'el Caimán', 'la Vicuña', 'el Avestruz', 'el Jabalí',
+        'el Hurón', 'la Vizcacha', 'el Colibrí', 'el Armadillo', 'la gata',
+        'el Colibrí', 'el pajaro', 'el mosquito', 'la Lechuza', 'la serpiente',
+        'el alcon', 'la Rana', 'el Armadillo', 'el gallo', 'la Cotorra',
+        'el Murciélago', 'el Tero', 'el Gato Montés', 'el Gavilán', 'la Lagartija',
+        'la Culebra', 'el Panda', 'el Yacaré', 'la Serpiente de Coral', 'la Cigüeña',
+        'el Flamengo', 'la Pantera', 'el Zorrillo', 'la Oruga', 'la Oveja',
+        'el Flamenco Austral', 'la Comadreja', 'el Caballo', 'el gusano', 'el Quirquincho',
+        'la Tarántula', 'el Zorro Colorado', 'la Gaviota Cocinera', 'la Nutria Roedora', 'el Gato Montés',
+        'el Cuervo', 'el Perdiz', 'el Rincón de los Sauces', 'el Picaflor', 'el Cuervo Negro',
+        'el Cóndor de los Andes', 'la Golondrina', 'el Lagarto Overo', 'el Gato Montés', 'la Nutria',
+        'el Pelícano Blanco', 'el Guacamayo', 'el Cachalote', 'el Lagarto Overo', 'la Perdiz',
+        'el Guanaco', 'la Bandurria', 'la Nutria de Río', 'la Vaca', 'el Yacaré Overo',
+        'el Pichón', 'el Jote Cabeza Negra', 'la Mariposa', 'el elefante', 'la Nutria'
+      ];
     const form = document.getElementById('form')
     form.addEventListener('submit', e => {
         e.preventDefault();
